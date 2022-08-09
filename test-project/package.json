@@ -1,0 +1,25 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js --color",
+    "lint:fix": "eslint . --ext .js --color --fix",
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.6",
+    "webdriverio": "^7.20.9"
+  },
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.0",
+    "jest": "^28.1.3"
+  }
+}
